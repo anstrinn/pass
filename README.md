@@ -1,11 +1,11 @@
-<img src="https://git.disroot.org/janpstrunn/images/raw/branch/main/pass.png" align="right" height="100"/>
+<img src="https://git.disroot.org/anstrinn/images/raw/branch/main/pass.png" align="right" height="100"/>
 <br>
 
 # pass: A Modern CLI Password Manager
 
 `pass` is an elegant and efficient password manager crafted in shell, designed to replace the [passwordstore](https://www.passwordstore.org/) while maintaining its core principles. Unlike `passwordstore`, `pass` leverages `age` for a more contemporary and streamlined approach to password management, ensuring robust security standards.
 
-To understand the encryption logic behind the `age` backend, see [Encryption Logic](https://github.com/janpstrunn/pass/wiki/Encryption-Logic).
+To understand the encryption logic behind the `age` backend, see [Encryption Logic](https://github.com/anstrinn/pass/wiki/Encryption-Logic).
 
 ## Features
 
@@ -21,7 +21,7 @@ To understand the encryption logic behind the `age` backend, see [Encryption Log
 - **Graphical Input**: Use `zenity` for inserting passwords.
 - **Dialog Customization**: Specify a dialog tool to get the master password and PIN.
 - **Key Rotation**: Rotate `age` keys and re-encrypt all passwords.
-- **Enhanced Security**: Empower PIN passwords using `argon2` (see [Entropy Amplification](https://github.com/janpstrunn/pass/wiki/Encryption-Logic#entropy-amplification))
+- **Enhanced Security**: Empower PIN passwords using `argon2` (see [Entropy Amplification](https://github.com/anstrinn/pass/wiki/Encryption-Logic#entropy-amplification))
 - **Highly Customizable**: Tailor the tool to your specific needs and workflows.
 
 ## Requirements
@@ -46,7 +46,7 @@ To understand the encryption logic behind the `age` backend, see [Encryption Log
 ## Installation
 
 ```
-curl -sSL https://github.com/janpstrunn/pass/raw/main/install.sh | bash
+curl -sSL https://github.com/anstrinn/pass/raw/main/install.sh | bash
 ```
 
 ## Configuration
@@ -167,10 +167,10 @@ mygooglepass=$(pass -p StrongestPinEver stdout email/google)
 
 ### Extensions
 
-- [x] Manage OTP passwords using [pass-otp](https://github.com/janpstrunn/pass-otp)
-- [x] Store passwords in a tomb using [pass-tomb](https://github.com/janpstrunn/pass-tomb)
-- [x] Manage Recovery Keys using ~`pass-recuva`~ [pass-otp](https://github.com/janpstrunn/pass-otp)
-- [x] Easily use `pass` and its official extensions using [pass-rofi](https://github.com/janpstrunn/pass-rofi)
+- [x] Manage OTP passwords using [pass-otp](https://github.com/anstrinn/pass-otp)
+- [x] Store passwords in a tomb using [pass-tomb](https://github.com/anstrinn/pass-tomb)
+- [x] Manage Recovery Keys using ~`pass-recuva`~ [pass-otp](https://github.com/anstrinn/pass-otp)
+- [x] Easily use `pass` and its official extensions using [pass-rofi](https://github.com/anstrinn/pass-rofi)
 
 ## Known Issues
 

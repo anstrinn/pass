@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 echo "Cloning repository"
-git clone https://github.com/janpstrunn/pass
+git clone https://github.com/anstrinn/pass
 cd pass
 
 # Install the main script
